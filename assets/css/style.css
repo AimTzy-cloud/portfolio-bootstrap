@@ -684,3 +684,41 @@ main {
 .footer .nav a + a {
     margin-left: 18px;
 }
+
+.class {
+    text-align: center;
+    font-style: italic;
+    margin: 2rem;
+}
+
+.bacot ul li{
+    display: inline-block;
+    font-weight: 600;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 8%;
+}
+
+.bacot ul li:hover {
+    background-color: orange;
+    transition: 10ms;
+    color: white;
+}
+
+.ubuntu {
+    margin: 1rem;
+}
+
+.ubuntu a {
+    font-size: 2rem;
+    color: black;
+    display: inline-flex;
+    margin: 2rem;
+    align-items: center;
+}
+
+.ubuntu a:hover {
+    color: orange;
+    transition: 5ms;
+}
